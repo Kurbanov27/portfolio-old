@@ -1,6 +1,7 @@
 header {
   background: transparent url("../img/header-bg.jpg") no-repeat center center;
   height: 100vh;
+  width: 100%;
 }
 
 header .navbar .navbar-brand img {
