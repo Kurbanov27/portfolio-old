@@ -1,0 +1,94 @@
+.pricing {
+    background: @dark;
+    padding: 90px 0;
+    h2 {
+        color: @white;
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .card {
+        .sm(margin-bottom,20px);
+        .lg(margin-bottom,20px);
+        .card-header {
+            position: relative;
+            .popular{
+                background: @pink;
+                position: absolute;
+                right: 0;
+                font-size: 14px;
+                text-transform: uppercase;
+                color: @white;
+                font-weight: 600;
+                padding: 3px 3px 3px 15px;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
+                display: none;
+            }
+            h4 {
+                color: #585b60;
+                font-size: 27px;
+            }
+            h5 {
+                font-size: 17px;
+                color: #6e737b;
+            }
+            p {
+                font-size: 15px;
+                color: @light;
+                font-weight: 300;
+            }
+        }
+        .card-body {
+            ul {
+                list-style: none;
+                padding-left: 10px;
+                li {
+                    font-size: 16px;
+                    color: #606162;
+                    line-height: 40px;
+                    &:before {
+                        content: '\2714';
+                        color: @pink;
+                        font-size: 18px;
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+        .card-footer {
+            h3{
+                font-size: 25px;
+                color: @light;
+                .usd {
+                    color: #585b60;
+                }
+                .number  {
+                    font-size: 50px;
+                }
+            }
+            .item {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .btn {
+                    background: @pink;
+                    color: @white;
+                    padding: 5px 30px;
+                    text-transform: uppercase;
+                    font-size: 18px;
+                    font-weight: 500;
+                    border-bottom: 2px solid #cc2952;
+                }
+            }
+            p {
+                font-size: 15px;
+                color: @light;
+            }
+        }
+        
+    }
+}
+.card-active {
+    outline: 3px solid @pink;
+}

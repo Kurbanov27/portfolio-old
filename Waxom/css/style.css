@@ -1,0 +1,410 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    color: #8c8c8c;
+}
+
+h3 {
+    font-weight: 600;
+    color: #555;
+    font-size: 30px;
+}
+
+.header {
+    height: 100vh;
+}
+
+.header .menu-top {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+}
+
+.header .menu-top .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 14px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header .menu-top .navbar-nav .nav-link:hover {
+    color: #cc9999;
+}
+
+.header .carousel-item img {
+    height: 750px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.header .carousel-item {
+    height: 100vh;
+    min-height: 600px;
+}
+
+.header .menu-top .navbar-toggler {
+    background: url('/img/burgerIcon.png') no-repeat;
+    background-size: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.header .carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.header .carousel .carousel-indicators li.active {
+    width: 12px;
+    height: 12px;
+    background: transparent;
+    border: 2px solid #d3c1ad;
+}
+
+.header .carousel .carousel-indicators {
+    align-items: center;
+}
+
+.start {
+    background: #999966;
+    border-bottom: 3px solid #666666;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 14px;
+    font-family: 'Raleway';
+    padding: 15px 35px;
+}
+
+.header .carousel .carousel-caption {
+    bottom: 200px;
+}
+
+.header .carousel .carousel-caption h5 {
+    font-size: 36px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 500;
+}
+
+.header .carousel .carousel-caption h1 {
+    font-size: 52px;
+    font-family: 'Raleway';
+    color: #fff;
+    font-weight: 800;
+}
+
+.service {
+    padding: 80px 0;
+}
+
+.service hr {
+    height: 3px;
+    width: 70px;
+    color: #cc9999;
+}
+
+.waxom {
+    background: linear-gradient(to right, #333300, #663333);
+    padding: 30px 0;
+}
+
+.waxom h2 {
+    font-size: 28px;
+    font-family: 'Raleway';
+    color: #fff;
+}
+
+.waxom span {
+    font-size: 28px;
+    font-family: 'Raleway';
+    color: #cc9999;
+}
+
+.project {
+    padding: 80px 0;
+}
+
+.project h2 {
+    font-size: 30px;
+    font-family: 'Raleway';
+    color: #666666;
+}
+
+.project p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #999999;
+}
+
+.project .nav-pills {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.project .nav-pills .nav-item {
+    border: 1px solid #ebebeb;
+    margin-right: 10px;
+}
+
+.project .nav-pills .nav-link {
+    color: #999999;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.project .nav-pills .nav-link.active {
+    background: #999966;
+    color: #fff;
+}
+
+.project .card {
+    margin-bottom: 30px;
+}
+
+.project .card:hover .fa-search,
+.project .card:hover .fa-link {
+    opacity: 1;
+}
+
+.project .card .fa {
+    font-size: 25px;
+}
+
+.project .card .fa-link {
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.project .card .fa-search {
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.project .card .fa-caret-up {
+    position: absolute;
+    font-size: 60px;
+    top: 190px;
+    left: 15px;
+    color: #fff;
+}
+
+.project .card img {
+    height: 230px;
+}
+
+.project .card .card-body {
+    background: #fbfaf8;
+}
+
+.project .card .card-body h5 {
+    font-size: 20px;
+    font-family: 'Raleway';
+    color: #c7b299;
+}
+
+.project .card .card-body p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #d1d1d1;
+}
+
+.project .card .card-body:hover {
+    background: #362f2d;
+}
+
+.project .card .card-body:hover h5 {
+    color: #fff;
+}
+
+.project .btn {
+    background: #998675;
+    color: #fff;
+    margin: auto;
+    display: inherit;
+}
+
+.video {
+    margin-bottom: 20px;
+}
+
+.excellent {
+    padding-top: 89px;
+}
+
+.excellent h3 {
+    font-size: 30px;
+    color: #555555;
+    padding-bottom: 35px;
+    padding-top: 105px;
+}
+
+.excellent p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #8c8c8c;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
+
+.excellent ul {
+    list-style: none;
+}
+
+.excellent li {
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+
+.excellent ul .fa {
+    color: #c7b299;
+    padding-right: 25px;
+    font-size: 25px;
+}
+
+.video {
+    height: 705px;
+    background: url('../img/waxom-video.png') center center;
+    background: cover;
+    background-attachment: fixed;
+}
+
+.video .center {
+    margin: auto;
+    text-align: center;
+}
+
+.video .row {
+    height: 705px;
+}
+
+.video .center h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Raleway';
+}
+
+.video .center p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #fff;
+}
+
+.statistic {
+    padding: 30px 0;
+    background: linear-gradient(to right, #333300, #663333);
+    margin-bottom: 80px;
+}
+
+.statistic h2 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.statistic p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.statistic hr {
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    justify-content: center
+}
+
+.post {
+    padding-bottom: 80px;
+}
+
+.post h3 {
+    color: #555555;
+    font-size: 30px;
+    font-family: 'Raleway';
+}
+
+.post p {
+    font-size: 16px;
+    font-family: 'Montserrat';
+    color: #8c8c8c;
+    font-weight: 300;
+}
+
+.post .card-text {
+    font-size: 14px;
+    font-family: 'Montserrat';
+    color: #8c8c8c;
+    font-weight: 300;
+}
+
+.post .card .card-body:hover {
+    background: #362f2d;
+}
+
+.post .card .card-body p:hover {
+    color: #fff;
+}
+
+.post .card-body a {
+    color: #c7b299;
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+.barber {
+    height: 489px;
+    background: url('../img/brand-bg.png') center center;
+    background: cover;
+    background-attachment: fixed;
+}
+
+.barber img {
+    margin-top: 140px;
+}
+
+.footer {
+    background: #191919;
+}
+
+.footer .wax {
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    font-family: 'Raleway';
+    color: #fff;
+}
+
+.footer hr {
+    background: #252525;
+}
+
+.footer span {
+    font-size: 12px;
+    font-family: 'Montserrat';
+    color: #363636;
+}
+
+.footer p {
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.footer span:hover,
+.footer p:hover {
+    color: #fff;
+}

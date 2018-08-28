@@ -1,0 +1,66 @@
+header {
+    .bg('../img/header-bg.jpg');
+    height: 100vh;
+    .navbar {
+        .navbar-brand {
+            img {
+                width: 135px;
+                height: 50px;
+            }
+        }
+        .navbar-nav {
+            .nav-item {
+                .nav-link {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                    color: @white;
+                    font-weight: 700;
+                    padding-right: 15px;
+                    outline: none;
+                    &:hover {
+                        color: @white;
+                    }
+                    &::after {
+                        content: '';
+                        display: block;
+                        height: 3px;
+                        background: @white;
+                        width: 0;
+                        transition: width 1s;
+                        margin: auto;
+                    }
+                    &:hover::after {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .caption {
+        margin-top: 150px;
+        text-align: left;
+        h1 {
+            font-size: 46px;
+            color: @white;
+            text-transform: uppercase;
+            font-weight: 700;
+        }
+        p {
+            font-size: 25px;
+            font-weight: 700;
+        }
+        .btn {
+            padding: 15px 40px;
+            background: transparent;
+            color: @white;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: 1px solid @white;
+            margin-right: 10px;
+            &:hover {
+                background: @white;
+                color: @dark;
+            }
+        }
+    }
+}

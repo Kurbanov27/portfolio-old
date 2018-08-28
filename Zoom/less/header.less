@@ -1,0 +1,73 @@
+header {
+    .bg('../img/headerbgpng.png');
+    height: 100vh;
+    .navbar {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        .nav-item {
+            .nav-link {
+                text-transform: uppercase;
+                font-weight: 600;
+                color: @white;
+                &:hover {
+                    color: @white;
+                }
+                &::after {
+                    content: '';
+                    display: block;
+                    height: 3px;
+                    background: @pink;
+                    width: 0;
+                    transition: width 1s;
+                    margin: auto;
+                }
+                &:hover::after{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .iphone {
+        margin-top: 90px;
+        .lg(text-align,center);
+        .phone {
+            height: 600px;
+        }
+        h1 {
+            color: @white;
+            font-size: 40px;
+            font-weight: 400;
+            padding-top: 50px;
+            .md(font-size,35px);
+            .sm(font-size,30px);
+        }
+        p {
+            font-size: 22px;
+            color: @white;
+            font-weight: 300;
+            .md(font-size,17px);
+            .sm(font-size,13px);
+        }
+        .btn {
+            background: transparent;
+            border: 2px solid @white;
+            border-radius: 40px;
+            font-size: 18px;
+            color: @white;
+            padding: 7px 40px;
+            .sm(margin-bottom, 20px);
+            .sm-block({
+                padding-left: 15px;
+                padding-right: 15px;
+            });
+            .fa {
+                font-size: 25px;
+                font-weight: 300;
+            }
+            &:hover {
+                background: @white;
+                color: #585b60;
+            }
+        }
+    }
+}

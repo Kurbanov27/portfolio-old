@@ -1,0 +1,42 @@
+.clean {
+    padding: 220px 0;
+    background: @dark;
+    .item {
+        display: flex;
+        margin-bottom: 125px;
+        .xl(margin-bottom,50px);
+        &.reverse {
+            flex-direction: row-reverse;
+            .decs {
+                text-align: left;
+            }
+            .fa {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        .decs {
+            text-align: right;
+            h6 {
+                color: @white;
+                font-size: 22px;
+            }
+            p {
+                color: @light;
+                font-size: 17px;
+                font-weight: 300;
+            }
+        }
+        .fa {
+            color: @white;
+            font-size: 30px;
+            margin-left: 10px;
+            border: 1px solid @white;
+            border-radius: 50%;
+            padding: 10px;
+        }
+    }
+}

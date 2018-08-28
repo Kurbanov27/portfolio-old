@@ -1,0 +1,54 @@
+@import "./params/mixins.less";
+@import "./params/variables.less";
+@import "./header.less";
+@import "./about.less";
+@import "./services.less";
+@import "./works.less";
+@import "./work.less";
+@import "./statistic.less";
+@import "./footer.less";
+@import "./form.less";
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    min-width: 410px;
+    font-family: 'Cormorant';
+    color: @white;
+    font-size: 16px;
+}
+p {
+    font-size: 16px;
+    color: @white;
+}
+
+h2 {
+    font-size: 36px;
+    color: @black;
+    font-family: 'Cormorant';
+    text-transform: uppercase;
+    text-align: center;
+}
+.fix {
+    background: @dark;
+    box-shadow: 0 20px 15px #a19f9e;
+    
+}
+.up {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: @dark;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    .fa {
+        color: @white;
+    }
+}

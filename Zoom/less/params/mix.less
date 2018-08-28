@@ -1,0 +1,44 @@
+.bg(@url: '', @color: transparent, @repeat: no-repeat, @x: center, @y: center) {
+    background: @color url("@{url}") @repeat @x @y;
+    background-size:cover;
+}
+.xl(@name, @value){
+    @media (max-width:1200px){
+        @{name} : @value;
+    }
+}
+.lg(@name, @value){
+    @media (max-width:992px){
+        @{name} : @value;
+    }
+}
+.md(@name, @value){
+    @media (max-width:768px){
+        @{name} : @value;
+    }
+}
+.sm(@name, @value){
+    @media (max-width:576px){
+        @{name} : @value;
+    }
+}
+.xl-block(@content){
+    @media (max-width:1200px){
+        @content();
+    }
+}
+.lg-block(@content){
+    @media (max-width:992px){
+        @content();
+    }
+}
+.md-block(@content){
+    @media (max-width:768px){
+        @content();
+    }
+}
+.sm-block(@content){
+    @media (max-width:576px){
+        @content();
+    }
+}
